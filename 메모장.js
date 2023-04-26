@@ -57,9 +57,6 @@ const addItem = (memoitem) => {
 };
 
 const handler = (event) => {
-  if(memoitem !== "") {
-    alert("내용을 입력하세요!")
-  }
   memoitem = {
     id: Date.now(),
     text: content.value,
